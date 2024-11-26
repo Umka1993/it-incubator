@@ -1,5 +1,6 @@
 import express, {Request, Response} from 'express';
 import {rootLogger} from "ts-jest";
+import * as path from "node:path";
 export const app = express();
 const port = 3000;
 
